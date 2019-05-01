@@ -15,5 +15,4 @@ app.on('ready', () => {
   });
 
   mainWindow.loadURL(`file://${__dirname}/index.html`);
-  setTimeout(() => mainWindow.openDevTools(), 5*1000);
 });
